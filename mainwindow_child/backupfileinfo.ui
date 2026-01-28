@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>BackupFileIndfo</class>
- <widget class="QWidget" name="BackupFileIndfo">
+ <class>BackupFileInfo</class>
+ <widget class="QWidget" name="BackupFileInfo">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -24,14 +24,21 @@
    <item>
     <widget class="QPushButton" name="pushButton_Open">
      <property name="text">
-      <string>打开文件</string>
+      <string>打开</string>
      </property>
     </widget>
    </item>
    <item>
-    <widget class="QPushButton" name="pushButton">
+    <widget class="QPushButton" name="pushButton_Restore">
      <property name="text">
-      <string>还原备份</string>
+      <string>还原</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_Delete">
+     <property name="text">
+      <string>删除</string>
      </property>
     </widget>
    </item>
