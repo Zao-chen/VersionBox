@@ -16,8 +16,12 @@ class MainWindow : public QMainWindow
 public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
-
     void setDroppedPaths(const QStringList& paths); //获取传递的文件路径
+    /*加载文件备份*/
+    void LoadFileBackup(const QStringList& paths); //加载文件备份
+
+private slots:
+    void on_pushButton_SelectFile_clicked();
 
 private:
     Ui::MainWindow *ui;
